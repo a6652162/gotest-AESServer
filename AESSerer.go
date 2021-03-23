@@ -40,7 +40,7 @@ func main() {
 	err := http.ListenAndServe("0.0.0.0:6999", nil)
 
 	if err != nil {
-		fmt.Println("服务器错误")
+		fmt.Println("服务器错误!")
 	}
 }
 
